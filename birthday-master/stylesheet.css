@@ -13,6 +13,8 @@ body {
 }
 .peach {
 	background-color: #FFDAB9;
+	background-image: url(cake128.png);
+    background-repeat: no-repeat;
 	
 }
 .peach-after {
