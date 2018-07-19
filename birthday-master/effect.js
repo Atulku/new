@@ -164,6 +164,7 @@ $('document').ready(function(){
 		});
 	});
 	$('#bye').click(function(){
+		$('#bye').fadeOut('slow');
 		window.reload();
 	});
 	$('#story').click(function(){
