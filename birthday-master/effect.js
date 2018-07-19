@@ -165,7 +165,7 @@ $('document').ready(function(){
 	});
 	$('#bye').click(function(){
 		$('#bye').fadeOut('slow');
-		window.reload();
+		location.reload();
 	});
 	$('#story').click(function(){
 		$(this).fadeOut('slow');
