@@ -13,9 +13,9 @@ body {
 }
 .peach {
 	background-color: #FFDAB9;
-	background-image: url(cake128.png);
+	background-image: url(pic.jpg);
     background-repeat: no-repeat;
-	
+	background-size: 100% 100%;
 }
 .peach-after {
 	-webkit-animation:peach_alive linear 8s infinite;
