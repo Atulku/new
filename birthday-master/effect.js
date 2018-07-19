@@ -163,7 +163,9 @@ $('document').ready(function(){
 			$('#story').fadeIn('slow');
 		});
 	});
-	
+	$('#bye').click(function(){
+		window.reload();
+	});
 	$('#story').click(function(){
 		$(this).fadeOut('slow');
 		$('.cake').fadeOut('fast').promise().done(function(){
@@ -191,6 +193,8 @@ $('document').ready(function(){
 		}
 		
 		msgLoop(0);
+		$('#story').fadeOut('slow');
+		$('#bye').fadeIn('slow');
 		
 	});
 });
