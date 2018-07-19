@@ -52,51 +52,51 @@ $('document').ready(function(){
 	});
 
 	function loopOne() {
-		var randleft = 100*Math.random();
-		var randtop = 50*Math.random();
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
 		$('#b1').animate({left:randleft,bottom:randtop},10000,function(){
 			loopOne();
 		});
 	}
 	function loopTwo() {
-		var randleft = 100*Math.random();
-		var randtop = 50*Math.random();
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
 		$('#b2').animate({left:randleft,bottom:randtop},10000,function(){
 			loopTwo();
 		});
 	}
 	function loopThree() {
-		var randleft = 100*Math.random();
-		var randtop = 50*Math.random();
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
 		$('#b3').animate({left:randleft,bottom:randtop},10000,function(){
 			loopThree();
 		});
 	}
 	function loopFour() {
-		var randleft = 100*Math.random();
-		var randtop = 50*Math.random();
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
 		$('#b4').animate({left:randleft,bottom:randtop},10000,function(){
 			loopFour();
 		});
 	}
 	function loopFive() {
-		var randleft = 100*Math.random();
-		var randtop = 50*Math.random();
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
 		$('#b5').animate({left:randleft,bottom:randtop},10000,function(){
 			loopFive();
 		});
 	}
 
 	function loopSix() {
-		var randleft = 100*Math.random();
-		var randtop = 50*Math.random();
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
 		$('#b6').animate({left:randleft,bottom:randtop},10000,function(){
 			loopSix();
 		});
 	}
 	function loopSeven() {
-		var randleft = 100*Math.random();
-		var randtop = 50*Math.random();
+		var randleft = 1000*Math.random();
+		var randtop = 500*Math.random();
 		$('#b7').animate({left:randleft,bottom:randtop},10000,function(){
 			loopSeven();
 		});
@@ -150,10 +150,10 @@ $('document').ready(function(){
 		$('#b5').attr('id','b55')
 		$('#b6').attr('id','b66')
 		$('#b7').attr('id','b77')
-		$('#b11').animate({top:240, left: vw-200},500);
-		$('#b22').animate({top:240, left: vw-150},500);
-		$('#b33').animate({top:240, left: vw-100},500);
-		$('#b44').animate({top:240, left: vw-50},500);
+		$('#b11').animate({top:240, left: vw-150},500);
+		$('#b22').animate({top:240, left: vw-100},500);
+		$('#b33').animate({top:240, left: vw-50},500);
+		$('#b44').animate({top:240, left: vw+1},500);
 		$('#b55').animate({top:240, left: vw+50},500);
 		$('#b66').animate({top:240, left: vw+100},500);
 		$('#b77').animate({top:240, left: vw+150},500);
